@@ -10,3 +10,15 @@ C:\Users\jonat\source\repos\Fazendinha\Fazendinha\obj\Debug\Fazendinha.csproj.Co
 C:\Users\jonat\source\repos\Fazendinha\Fazendinha\obj\Debug\Fazendinha.csproj.CopyComplete
 C:\Users\jonat\source\repos\Fazendinha\Fazendinha\obj\Debug\Fazendinha.exe
 C:\Users\jonat\source\repos\Fazendinha\Fazendinha\obj\Debug\Fazendinha.pdb
+C:\Users\jonat\Documents\GitHub\Fazendinha\Fazendinha\bin\Debug\Fazendinha.exe.config
+C:\Users\jonat\Documents\GitHub\Fazendinha\Fazendinha\bin\Debug\Fazendinha.exe
+C:\Users\jonat\Documents\GitHub\Fazendinha\Fazendinha\bin\Debug\Fazendinha.pdb
+C:\Users\jonat\Documents\GitHub\Fazendinha\Fazendinha\bin\Debug\Guna.UI.dll
+C:\Users\jonat\Documents\GitHub\Fazendinha\Fazendinha\obj\Debug\Fazendinha.csprojAssemblyReference.cache
+C:\Users\jonat\Documents\GitHub\Fazendinha\Fazendinha\obj\Debug\Fazendinha.frmLogin.resources
+C:\Users\jonat\Documents\GitHub\Fazendinha\Fazendinha\obj\Debug\Fazendinha.Properties.Resources.resources
+C:\Users\jonat\Documents\GitHub\Fazendinha\Fazendinha\obj\Debug\Fazendinha.csproj.GenerateResource.cache
+C:\Users\jonat\Documents\GitHub\Fazendinha\Fazendinha\obj\Debug\Fazendinha.csproj.CoreCompileInputs.cache
+C:\Users\jonat\Documents\GitHub\Fazendinha\Fazendinha\obj\Debug\Fazendinha.csproj.CopyComplete
+C:\Users\jonat\Documents\GitHub\Fazendinha\Fazendinha\obj\Debug\Fazendinha.exe
+C:\Users\jonat\Documents\GitHub\Fazendinha\Fazendinha\obj\Debug\Fazendinha.pdb

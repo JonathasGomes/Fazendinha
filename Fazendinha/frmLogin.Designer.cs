@@ -37,10 +37,10 @@ namespace Fazendinha
             this.gunaLabel3 = new Guna.UI.WinForms.GunaLabel();
             this.gunaLabel2 = new Guna.UI.WinForms.GunaLabel();
             this.gunaLabel1 = new Guna.UI.WinForms.GunaLabel();
-            this.gunaLineTextBox2 = new Guna.UI.WinForms.GunaLineTextBox();
-            this.gunaLineTextBox1 = new Guna.UI.WinForms.GunaLineTextBox();
-            this.gunaButton2 = new Guna.UI.WinForms.GunaButton();
-            this.gunaButton1 = new Guna.UI.WinForms.GunaButton();
+            this.txtUsuario = new Guna.UI.WinForms.GunaLineTextBox();
+            this.txtSenha = new Guna.UI.WinForms.GunaLineTextBox();
+            this.btnEntrar = new Guna.UI.WinForms.GunaButton();
+            this.btnCriarConta = new Guna.UI.WinForms.GunaButton();
             this.gunaGradient2Panel2.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -63,10 +63,10 @@ namespace Fazendinha
             this.gunaGradient2Panel2.Controls.Add(this.gunaLabel3);
             this.gunaGradient2Panel2.Controls.Add(this.gunaLabel2);
             this.gunaGradient2Panel2.Controls.Add(this.gunaLabel1);
-            this.gunaGradient2Panel2.Controls.Add(this.gunaLineTextBox2);
-            this.gunaGradient2Panel2.Controls.Add(this.gunaLineTextBox1);
-            this.gunaGradient2Panel2.Controls.Add(this.gunaButton2);
-            this.gunaGradient2Panel2.Controls.Add(this.gunaButton1);
+            this.gunaGradient2Panel2.Controls.Add(this.txtUsuario);
+            this.gunaGradient2Panel2.Controls.Add(this.txtSenha);
+            this.gunaGradient2Panel2.Controls.Add(this.btnEntrar);
+            this.gunaGradient2Panel2.Controls.Add(this.btnCriarConta);
             this.gunaGradient2Panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.gunaGradient2Panel2.GradientColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.gunaGradient2Panel2.GradientColor2 = System.Drawing.Color.SeaGreen;
@@ -155,87 +155,87 @@ namespace Fazendinha
             this.gunaLabel1.TabIndex = 17;
             this.gunaLabel1.Text = "Senha";
             // 
-            // gunaLineTextBox2
+            // txtUsuario
             // 
-            this.gunaLineTextBox2.BackColor = System.Drawing.SystemColors.Info;
-            this.gunaLineTextBox2.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.gunaLineTextBox2.FocusedLineColor = System.Drawing.Color.YellowGreen;
-            this.gunaLineTextBox2.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gunaLineTextBox2.ForeColor = System.Drawing.Color.Black;
-            this.gunaLineTextBox2.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(136)))), ((int)(((byte)(127)))));
-            this.gunaLineTextBox2.LineSize = 4;
-            this.gunaLineTextBox2.Location = new System.Drawing.Point(47, 74);
-            this.gunaLineTextBox2.Name = "gunaLineTextBox2";
-            this.gunaLineTextBox2.PasswordChar = '\0';
-            this.gunaLineTextBox2.SelectedText = "";
-            this.gunaLineTextBox2.Size = new System.Drawing.Size(188, 26);
-            this.gunaLineTextBox2.TabIndex = 16;
+            this.txtUsuario.BackColor = System.Drawing.SystemColors.Info;
+            this.txtUsuario.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtUsuario.FocusedLineColor = System.Drawing.Color.YellowGreen;
+            this.txtUsuario.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txtUsuario.ForeColor = System.Drawing.Color.Black;
+            this.txtUsuario.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(136)))), ((int)(((byte)(127)))));
+            this.txtUsuario.LineSize = 4;
+            this.txtUsuario.Location = new System.Drawing.Point(47, 74);
+            this.txtUsuario.Name = "txtUsuario";
+            this.txtUsuario.PasswordChar = '\0';
+            this.txtUsuario.SelectedText = "";
+            this.txtUsuario.Size = new System.Drawing.Size(188, 26);
+            this.txtUsuario.TabIndex = 16;
             // 
-            // gunaLineTextBox1
+            // txtSenha
             // 
-            this.gunaLineTextBox1.BackColor = System.Drawing.SystemColors.Info;
-            this.gunaLineTextBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.gunaLineTextBox1.FocusedLineColor = System.Drawing.Color.YellowGreen;
-            this.gunaLineTextBox1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gunaLineTextBox1.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(136)))), ((int)(((byte)(127)))));
-            this.gunaLineTextBox1.LineSize = 4;
-            this.gunaLineTextBox1.Location = new System.Drawing.Point(47, 141);
-            this.gunaLineTextBox1.Name = "gunaLineTextBox1";
-            this.gunaLineTextBox1.PasswordChar = '\0';
-            this.gunaLineTextBox1.SelectedText = "";
-            this.gunaLineTextBox1.Size = new System.Drawing.Size(188, 26);
-            this.gunaLineTextBox1.TabIndex = 15;
+            this.txtSenha.BackColor = System.Drawing.SystemColors.Info;
+            this.txtSenha.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtSenha.FocusedLineColor = System.Drawing.Color.YellowGreen;
+            this.txtSenha.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txtSenha.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(136)))), ((int)(((byte)(127)))));
+            this.txtSenha.LineSize = 4;
+            this.txtSenha.Location = new System.Drawing.Point(47, 141);
+            this.txtSenha.Name = "txtSenha";
+            this.txtSenha.PasswordChar = '\0';
+            this.txtSenha.SelectedText = "";
+            this.txtSenha.Size = new System.Drawing.Size(188, 26);
+            this.txtSenha.TabIndex = 15;
             // 
-            // gunaButton2
+            // btnEntrar
             // 
-            this.gunaButton2.AnimationHoverSpeed = 1.07F;
-            this.gunaButton2.AnimationSpeed = 0.03F;
-            this.gunaButton2.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(64)))), ((int)(((byte)(55)))));
-            this.gunaButton2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(136)))), ((int)(((byte)(127)))));
-            this.gunaButton2.BorderSize = 1;
-            this.gunaButton2.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.gunaButton2.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaButton2.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gunaButton2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(136)))), ((int)(((byte)(127)))));
-            this.gunaButton2.Image = ((System.Drawing.Image)(resources.GetObject("gunaButton2.Image")));
-            this.gunaButton2.ImageSize = new System.Drawing.Size(20, 20);
-            this.gunaButton2.Location = new System.Drawing.Point(72, 209);
-            this.gunaButton2.Name = "gunaButton2";
-            this.gunaButton2.OnHoverBaseColor = System.Drawing.Color.YellowGreen;
-            this.gunaButton2.OnHoverBorderColor = System.Drawing.Color.DarkGreen;
-            this.gunaButton2.OnHoverForeColor = System.Drawing.SystemColors.Info;
-            this.gunaButton2.OnHoverImage = null;
-            this.gunaButton2.OnPressedColor = System.Drawing.Color.Black;
-            this.gunaButton2.Size = new System.Drawing.Size(136, 30);
-            this.gunaButton2.TabIndex = 14;
-            this.gunaButton2.Text = "Entrar no Jogo";
+            this.btnEntrar.AnimationHoverSpeed = 1.07F;
+            this.btnEntrar.AnimationSpeed = 0.03F;
+            this.btnEntrar.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(64)))), ((int)(((byte)(55)))));
+            this.btnEntrar.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(136)))), ((int)(((byte)(127)))));
+            this.btnEntrar.BorderSize = 1;
+            this.btnEntrar.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.btnEntrar.FocusedColor = System.Drawing.Color.Empty;
+            this.btnEntrar.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnEntrar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(136)))), ((int)(((byte)(127)))));
+            this.btnEntrar.Image = ((System.Drawing.Image)(resources.GetObject("btnEntrar.Image")));
+            this.btnEntrar.ImageSize = new System.Drawing.Size(20, 20);
+            this.btnEntrar.Location = new System.Drawing.Point(72, 209);
+            this.btnEntrar.Name = "btnEntrar";
+            this.btnEntrar.OnHoverBaseColor = System.Drawing.Color.YellowGreen;
+            this.btnEntrar.OnHoverBorderColor = System.Drawing.Color.DarkGreen;
+            this.btnEntrar.OnHoverForeColor = System.Drawing.SystemColors.Info;
+            this.btnEntrar.OnHoverImage = null;
+            this.btnEntrar.OnPressedColor = System.Drawing.Color.Black;
+            this.btnEntrar.Size = new System.Drawing.Size(136, 30);
+            this.btnEntrar.TabIndex = 14;
+            this.btnEntrar.Text = "Entrar no Jogo";
             // 
-            // gunaButton1
+            // btnCriarConta
             // 
-            this.gunaButton1.Animated = true;
-            this.gunaButton1.AnimationHoverSpeed = 0.07F;
-            this.gunaButton1.AnimationSpeed = 0.03F;
-            this.gunaButton1.BackColor = System.Drawing.Color.Transparent;
-            this.gunaButton1.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(64)))), ((int)(((byte)(55)))));
-            this.gunaButton1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(136)))), ((int)(((byte)(127)))));
-            this.gunaButton1.BorderSize = 1;
-            this.gunaButton1.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.gunaButton1.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaButton1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gunaButton1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(136)))), ((int)(((byte)(127)))));
-            this.gunaButton1.Image = ((System.Drawing.Image)(resources.GetObject("gunaButton1.Image")));
-            this.gunaButton1.ImageSize = new System.Drawing.Size(20, 20);
-            this.gunaButton1.Location = new System.Drawing.Point(285, 225);
-            this.gunaButton1.Name = "gunaButton1";
-            this.gunaButton1.OnHoverBaseColor = System.Drawing.Color.YellowGreen;
-            this.gunaButton1.OnHoverBorderColor = System.Drawing.Color.DarkGreen;
-            this.gunaButton1.OnHoverForeColor = System.Drawing.SystemColors.Info;
-            this.gunaButton1.OnHoverImage = null;
-            this.gunaButton1.OnPressedColor = System.Drawing.Color.Black;
-            this.gunaButton1.Radius = 14;
-            this.gunaButton1.Size = new System.Drawing.Size(162, 30);
-            this.gunaButton1.TabIndex = 13;
-            this.gunaButton1.Text = "Criar uma nova conta";
+            this.btnCriarConta.Animated = true;
+            this.btnCriarConta.AnimationHoverSpeed = 0.07F;
+            this.btnCriarConta.AnimationSpeed = 0.03F;
+            this.btnCriarConta.BackColor = System.Drawing.Color.Transparent;
+            this.btnCriarConta.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(64)))), ((int)(((byte)(55)))));
+            this.btnCriarConta.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(136)))), ((int)(((byte)(127)))));
+            this.btnCriarConta.BorderSize = 1;
+            this.btnCriarConta.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.btnCriarConta.FocusedColor = System.Drawing.Color.Empty;
+            this.btnCriarConta.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnCriarConta.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(136)))), ((int)(((byte)(127)))));
+            this.btnCriarConta.Image = ((System.Drawing.Image)(resources.GetObject("btnCriarConta.Image")));
+            this.btnCriarConta.ImageSize = new System.Drawing.Size(20, 20);
+            this.btnCriarConta.Location = new System.Drawing.Point(285, 225);
+            this.btnCriarConta.Name = "btnCriarConta";
+            this.btnCriarConta.OnHoverBaseColor = System.Drawing.Color.YellowGreen;
+            this.btnCriarConta.OnHoverBorderColor = System.Drawing.Color.DarkGreen;
+            this.btnCriarConta.OnHoverForeColor = System.Drawing.SystemColors.Info;
+            this.btnCriarConta.OnHoverImage = null;
+            this.btnCriarConta.OnPressedColor = System.Drawing.Color.Black;
+            this.btnCriarConta.Radius = 14;
+            this.btnCriarConta.Size = new System.Drawing.Size(162, 30);
+            this.btnCriarConta.TabIndex = 13;
+            this.btnCriarConta.Text = "Criar uma nova conta";
             // 
             // frmLogin
             // 
@@ -263,10 +263,10 @@ namespace Fazendinha
         private Guna.UI.WinForms.GunaLabel gunaLabel3;
         private Guna.UI.WinForms.GunaLabel gunaLabel2;
         private Guna.UI.WinForms.GunaLabel gunaLabel1;
-        private Guna.UI.WinForms.GunaLineTextBox gunaLineTextBox2;
-        private Guna.UI.WinForms.GunaLineTextBox gunaLineTextBox1;
-        private Guna.UI.WinForms.GunaButton gunaButton2;
-        private Guna.UI.WinForms.GunaButton gunaButton1;
+        private Guna.UI.WinForms.GunaLineTextBox txtUsuario;
+        private Guna.UI.WinForms.GunaLineTextBox txtSenha;
+        private Guna.UI.WinForms.GunaButton btnEntrar;
+        private Guna.UI.WinForms.GunaButton btnCriarConta;
     }
 }
 
