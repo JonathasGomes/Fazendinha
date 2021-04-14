@@ -98,6 +98,7 @@ namespace Fazendinha
             this.gunaButton4.OnPressedColor = System.Drawing.Color.Transparent;
             this.gunaButton4.Size = new System.Drawing.Size(20, 20);
             this.gunaButton4.TabIndex = 21;
+            this.gunaButton4.Click += new System.EventHandler(this.gunaButton4_Click);
             // 
             // gunaButton3
             // 
@@ -121,6 +122,7 @@ namespace Fazendinha
             this.gunaButton3.OnPressedColor = System.Drawing.Color.Transparent;
             this.gunaButton3.Size = new System.Drawing.Size(20, 20);
             this.gunaButton3.TabIndex = 20;
+            this.gunaButton3.Click += new System.EventHandler(this.gunaButton3_Click);
             // 
             // gunaLabel3
             // 
