@@ -238,6 +238,7 @@ namespace Fazendinha
             this.btnCriarConta.Size = new System.Drawing.Size(162, 30);
             this.btnCriarConta.TabIndex = 13;
             this.btnCriarConta.Text = "Criar uma nova conta";
+            this.btnCriarConta.Click += new System.EventHandler(this.btnCriarConta_Click);
             // 
             // frmLogin
             // 

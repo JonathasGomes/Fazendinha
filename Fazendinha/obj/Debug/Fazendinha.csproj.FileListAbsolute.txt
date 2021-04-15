@@ -33,3 +33,4 @@ C:\Users\felip\Documents\ProjetoFazendinha\Fazendinha\obj\Debug\Fazendinha.cspro
 C:\Users\felip\Documents\ProjetoFazendinha\Fazendinha\obj\Debug\Fazendinha.csproj.CopyComplete
 C:\Users\felip\Documents\ProjetoFazendinha\Fazendinha\obj\Debug\Fazendinha.exe
 C:\Users\felip\Documents\ProjetoFazendinha\Fazendinha\obj\Debug\Fazendinha.pdb
+C:\Users\jonat\Documents\GitHub\Fazendinha\Fazendinha\obj\Debug\Fazendinha.Formularios.frmCadastro.resources

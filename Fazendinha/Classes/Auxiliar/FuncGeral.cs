@@ -8,5 +8,6 @@ namespace Fazendinha.Classes.Auxiliar
 {
     class FuncGeral
     {
+
     }
 }
