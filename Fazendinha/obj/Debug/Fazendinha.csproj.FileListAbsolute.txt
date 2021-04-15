@@ -22,3 +22,14 @@ C:\Users\jonat\Documents\GitHub\Fazendinha\Fazendinha\obj\Debug\Fazendinha.cspro
 C:\Users\jonat\Documents\GitHub\Fazendinha\Fazendinha\obj\Debug\Fazendinha.csproj.CopyComplete
 C:\Users\jonat\Documents\GitHub\Fazendinha\Fazendinha\obj\Debug\Fazendinha.exe
 C:\Users\jonat\Documents\GitHub\Fazendinha\Fazendinha\obj\Debug\Fazendinha.pdb
+C:\Users\felip\Documents\ProjetoFazendinha\Fazendinha\bin\Debug\Fazendinha.exe.config
+C:\Users\felip\Documents\ProjetoFazendinha\Fazendinha\bin\Debug\Fazendinha.exe
+C:\Users\felip\Documents\ProjetoFazendinha\Fazendinha\bin\Debug\Fazendinha.pdb
+C:\Users\felip\Documents\ProjetoFazendinha\Fazendinha\obj\Debug\Fazendinha.csprojAssemblyReference.cache
+C:\Users\felip\Documents\ProjetoFazendinha\Fazendinha\obj\Debug\Fazendinha.frmLogin.resources
+C:\Users\felip\Documents\ProjetoFazendinha\Fazendinha\obj\Debug\Fazendinha.Properties.Resources.resources
+C:\Users\felip\Documents\ProjetoFazendinha\Fazendinha\obj\Debug\Fazendinha.csproj.GenerateResource.cache
+C:\Users\felip\Documents\ProjetoFazendinha\Fazendinha\obj\Debug\Fazendinha.csproj.CoreCompileInputs.cache
+C:\Users\felip\Documents\ProjetoFazendinha\Fazendinha\obj\Debug\Fazendinha.csproj.CopyComplete
+C:\Users\felip\Documents\ProjetoFazendinha\Fazendinha\obj\Debug\Fazendinha.exe
+C:\Users\felip\Documents\ProjetoFazendinha\Fazendinha\obj\Debug\Fazendinha.pdb

@@ -16,5 +16,15 @@ namespace Fazendinha
         {
             InitializeComponent();
         }
+
+        private void gunaButton3_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void gunaButton4_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
     }
 }
